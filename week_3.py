@@ -1,9 +1,6 @@
 # Practice 1
 
 
-import variables
-
-
 def practice_1():
     import requests
     url = "https://en.wikipedia.org/wiki/main_page"
@@ -21,6 +18,7 @@ def practice_1():
 
 # Practice 2
 def practice_2():
+    import variables
     from lxml import etree
 
     root = etree.XML(variables.data_string)
